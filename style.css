@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins" sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(https://images.unsplash.com/photo-1561651188-d207bbec4ec3?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+.adjec {
+  background: #fff;
+  text-align: center;
+  justify-content: center;
+  display: block;
+  padding-top: 20px; /* Adjust the padding value */
+  padding-bottom: 20px; /* Adjust the padding value */
+  padding-left: 10px; /* Adjust the padding value */
+  padding-right: 10px; /* Adjust the padding value */
+  transition: 0.3s;
+}
+.adjec:hover{
+  color: #6e9887;
+  background-color: #f7e1d3;
+}
+.description{
+  background: #f7e1d3;
+  color: #525348;
+  text-align: center;
+  justify-content: center;
+  display: block;
+  padding-top: 0; /* Adjust the padding value */
+  padding-bottom: 20px; /* Adjust the padding value */
+  padding-left: 10px; /* Adjust the padding value */
+  padding-right: 10px; /* Adjust the padding value */
+  transition: 0.3s;
+}
+
+.app {
+  background: #f7e1d3;
+  width: 90%;
+  max-width: 600px;
+  margin: 100px auto 0;
+  border-radius: 10px;
+  padding: 10px;
+}
+.app h1 {
+  font-size: 25px;
+  color: #6e9887;
+  font-weight: 600;
+  border-bottom: 1px solid #333;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.app h3 {
+  font-size: 20px;
+  color: #6e9887;
+  font-weight: 600;
+  border-bottom: 1px solid #333;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+.quiz {
+  padding: 20px 0;
+}
+.quiz h2 {
+  font-size: 18px;
+  color: #525348;
+  font-size: 18px;
+}
+.btn {
+  background: #fff;
+  color: #525348;
+  font-weight: 500;
+  width: 100%;
+  border: 1px solid #222;
+  padding: 10px;
+  margin: 10px 0;
+  text-align: left;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn:not(:disabled):hover {
+  background: #639887;
+  color: #fff;
+}
+
+.btn:disabled {
+  cursor: no-drop;
+}
+#next-btn {
+  background: #f283b6;
+  color: #fff;
+  font-weight: 500;
+  width: 150px;
+  bottom: 0;
+  padding: 10px;
+  margin: 20px auto 0;
+  border-radius: 5px;
+  cursor: pointer;
+  display: none;
+}
+.correct {
+  background: #9aeabc;
+}
+.incorrect {
+  background: #ff9393;
+}
